@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Birthday Kak Han</title>
+    <style> 
+        body {
+            background-color: #f9d5e5;
+        }
+        .hati {
+            position: fixed;
+            top: -30px;
+            font-size: 25px;
+            animation: jatuh 5s linear infinite;
+            z-index: 999;
+            pointer-events: none;
+        }
+
+        @keyframes jatuh {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+        }
+
+        100% {
+            transform: translateY(100vh) rotate(360deg);
+            opacity: 0;
+        }
+    }
+    #opening {
+        text-align: center;
+        padding-top: 150px;
+    }
+        
+    
+    .pita {
+        font-size: 200px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .pita:hover {
+        transform: scale(1.15);
+    }
+
+    #isiBirthday {
+        display: none;
+        text-align: center;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="hati" style="left: 10%;">💗</div>
+    <div class="hati" style="left: 30%; animation-delay: 1s;">⭐</div>
+    <div class="hati" style="left: 50%; animation-delay: 2s;">♡</div>
+    <div class="hati" style="left: 70%; animation-delay: 3s;">✨</div>
+    <div class="hati" style="left: 90%; animation-delay: 4s;">💗</div>
+
+    <div id="opening">
+    <div class="pita" onclick="bukaSurat()">🎀</div>
+    <p> ♡ Happy Birthday ♡</p>
+</div>
+
+<div id="isiBirthday">
+    <h1> Selamat bertambah usia, sayangku! </h1>
+    <img src="foto.jpg.jpeg" width="300">
+    <img src="sayang.jpg.jpeg" width="300">
+    <img src="kakak.jpg.jpeg" width="300"> <br>
+    <p>
+        <a href="https://youtu.be/scxnZBevycs" target="_blank">
+            Taylor Swift - Begin Again
+        </a>
+    </p>
+    
+    <p> Halo umur baru! </p>
+    <p> Selamat ulang tahun ya? </p>
+        <p> Aku berdoa biar kamu panjang umur, sehat selalu, dan bahagia terus! <br>
+        Aku berdoa juga biar apapun yang kamu mau, dikabulkan sama Tuhan ya!<br>
+        Dan aku juga berdoa agar aku bisa lihat kamu di konser nanti (i miss you so much) <br>
+        
+        <p> Setahun aku selalu berdekatan dengan kabar kamu ternyata bikin aku sesayang ini<br>
+        Setahun juga aku ga pernah kehilanagan kabar tentang kamu di militer sana<br>
+        Tapi ternyata, akhir - akhir ini aku yang paling ketinggalan berita tentang kamu<br>
+        Padahal kamu udah muncul di media, tapi aku tetep ketinggalan updatean kamu... hehe<br>
+        Ternyata waktu bisa merubah secepat itu ya, kak?<br>
+        
+        <p> Kalo suatu saat aku bisa ngobrol sama kamu, aku mau say thankyou ke kamu; <br>
+        Thank you karena kamu udah choose lahir ke dunia (aku jadi bisa ketemu kamu hihi) <br>
+        Thank you karena kamu ga nyerah saat trainee<br>
+        Thank you karena kamu udah jadi idol yang keren<br>
+        Thank you karena kamu bisa ngehibur aku lewat semua sifat kamu<br>
+        Thank you karena kamu bisa jadi sosok kakak dan abang walaupun dari layar kaca<br>
+        Thank you karena kamu udah keren banget sampe saat ini<br>
+        Thank you karena kamu udah temani aku semasa aku stress saat itu<br>
+        Thank you karena kamu 'Yoon Jeonghan' <br>
+
+        <p>Aku sayang banget sama kamu, aku harap dunia kasih kamu bahagia terus ya?<br>
+
+        <p> When my hand can't hug you, my prayers will be<br>
+        Love you as always 💗 <br>
+
+        <p> - wawa sayangg kak hann selaluu - </p>
+        </p>
+    <script>
+        function bukaSurat() {
+        document.getElementById("opening").style.display = "none";
+        document.getElementById("isiBirthday").style.display = "block";
+}
+
+</script>
+</body>
+</html>
